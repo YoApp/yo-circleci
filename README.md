@@ -5,7 +5,7 @@ Review or Merge branches that passed tests from your lock screen
 ## Getting Started
 
 You'll need:    
-1. [The Yo app](https://justyo.co/) - this works on iOS beta for now. from your iOS device go to [http://justyo.co/ios](http://justyo.co/ios)
+1. [The Yo app](https://justyo.co/) - this works on iOS beta for now. from your iOS device go to [http://justyo.co/ios](http://justyo.co/ios)  
 2. [CircleCI account](http://circleci.com)  
 3. GitHub account  
 
