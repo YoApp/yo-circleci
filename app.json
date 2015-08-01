@@ -1,0 +1,25 @@
+{
+  "name": "Yo CircleCI",
+  "description": "Merge branches that passed tests from your iPhone lockscreen.",
+  "keywords": [
+    "productivity",
+    "circleci",
+    "yo"
+  ],
+  "website": "https://github.com/YoApp/yo-circleci",
+  "repository": "https://github.com/YoApp/yo-circleci",
+  "env": {
+    "GITHUB_ACCESS_TOKEN": {
+      "description": "An OAuth github access token with 'repo' scope authorization.",
+    },
+    "YO_USERNAME": {
+      "description": "The Yo username to notify (can be a group).",
+    },
+    "YO_API_TOKEN": {
+      "description": "The Yo API Token of the notifying account (where the callback is set).",
+    }
+  },
+  "addons": [
+    "rediscloud"
+  ]
+}

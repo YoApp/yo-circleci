@@ -1,20 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Simple service that allows reviewing or merging branches 
-that passed tests on CircleCI via tapping on actionable 
+Simple service that allows reviewing or merging branches
+that passed tests on CircleCI via tapping on actionable
 notifications via Yo.
-(Currently only for iOS)
-
-You'll need:
-* 
-Free CI: https://circleci.com
-
+(Currently only for Yo iOS beta)
 """
 import os
 import requests
 import redis
 import pickle
 import urlparse
+import json
 from flask import request
 from flask import Flask
 
@@ -95,13 +91,14 @@ def circlecireply():
         reponame = circleci_payload.get('reponame')
         branch = circleci_payload.get('branch')
 
+        # https://developer.github.com/v3/repos/merging/
         params = {
             "base": "master",
             "head": branch,
             "commit_message": display_name + ' merged "' + branch + '" to "master" via Yo.'
         }
-        url = 'http://api.github.com/repos/' + github_username + '/' + reponame + '/merges?access_token=' + GITHUB_ACCESS_TOKEN
-        response = requests.post(url, params)
+        url = 'https://api.github.com/repos/' + github_username + '/' + reponame + '/merges?access_token=' + GITHUB_ACCESS_TOKEN
+        response = requests.post(url, data=json.dumps(params), headers={'Content-type': 'application/json'})
         if debug:
             print response, response.text
 
