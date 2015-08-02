@@ -1,7 +1,7 @@
 Review or Merge branches that passed tests from your lock screen
 
 ![Yo](http://cl.ly/image/0c303E0I3d3W/Untitled.png)
-[Yo](http://docs.justyo.co/v2.0/docs/)
+[Yoyo](http://docs.justyo.co/v2.0/docs/)
 
 
 ## Getting Started
