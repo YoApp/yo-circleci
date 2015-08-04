@@ -35,6 +35,6 @@ You'll need:
 * Login or signup using your personal account to https://dev.justyo.co/
 ![Create client](http://cl.ly/image/3S2u2U0X0H0d/Screen%20Shot%202015-07-27%20at%201.37.00%20PM.png)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+TBC
 
 [Apply for our Yo Developer Program](https://yoapp.typeform.com/to/xi0WMz)
