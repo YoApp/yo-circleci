@@ -37,4 +37,4 @@ You'll need:
 
 TBC
 
-[Apply for our Yo Developer Program](https://yoapp.typeform.com/to/xi0WMz)
+[Join our Yo Developer Program](https://yoapp.typeform.com/to/xi0WMz)
