@@ -23,8 +23,8 @@ You'll need:
 
 * Clone this repo: 
 
-        git clone git@github.com:YoApp/yo-pugs.git
-        cd yo-pugs
+        git clone git@github.com:YoApp/yo-circleci.git
+        cd yo-circleci
         
 * Create a virtualenv, activate it and install dependencies:
 
@@ -32,7 +32,7 @@ You'll need:
         . env/bin/activate
         pip install -r requirements.txt
 
-* Login or signup using your personal account to https://dev.justyo.co/
+* Login or signup using your personal account to https://dashboard.justyo.co/
 ![Create client](http://cl.ly/image/3S2u2U0X0H0d/Screen%20Shot%202015-07-27%20at%201.37.00%20PM.png)
 
 TBC
