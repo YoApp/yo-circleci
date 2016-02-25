@@ -1,3 +1,5 @@
+[![Slack Status](http://slack.justyo.co/badge.svg)](http://slack.justyo.co)
+
 Review or Merge branches that passed tests from your lock screen
 
 ![Yo](http://cl.ly/image/0c303E0I3d3W/Untitled.png)  
